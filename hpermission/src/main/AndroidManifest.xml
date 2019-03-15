@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hbuilder.android.permission" >
+
+    <application>
+
+        <activity android:name=".PermissionActivity"
+            android:theme="@style/Transparent">
+
+        </activity>
+
+    </application>
+
+</manifest>
