@@ -29,13 +29,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'org.aspectj:aspectjrt:1.8.9'
 
 }
 
 def MAVEN_REPOSITORY_PATH = 'file:///home/huangbei/projects/mvn/maven'
 def GROUP_ID = 'hbuilder.android.utils'
 def ARTIFACT_ID = 'permission'
-def VERSION_NAME = '1.0'
+def VERSION_NAME = '1.1'
 def PACKAGE_TYPE = 'aar'
 
 uploadArchives{
